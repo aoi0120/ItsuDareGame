@@ -46,6 +46,7 @@ class ViewController: UIViewController {
         doshitaLabel.clipsToBounds = true
     }
 
+    //入れ替えボタン用
     @IBAction func change () {
         //それぞれのラベルに配列の要素を表示する
         itsuLabel.text = itsuArray[index]
